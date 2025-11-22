@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(calc(2, []int{3, 2, 6, 5, 0, 3}))
+	fmt.Println(calc(4, []int{4, 1, 6, 5, 0, 3, 8, 5, 10}))
 }
 
 // todo for DP
