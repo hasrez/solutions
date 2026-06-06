@@ -27,13 +27,10 @@ func statisticPlot(permutations [][]string, n int) {
 		}
 	}
 	for _, row := range counts {
-		sum := 0
 		for _, column := range row {
 			fmt.Print(column, " ")
-			sum += column
 		}
 		fmt.Println()
-		fmt.Println(sum)
 	}
 }
 
